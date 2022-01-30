@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>
+    Redirect to GeeksforGeeks
+  </title>
+  <meta http-equiv="refresh" content="0; url=./public/index.html">
+</head>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Courier New', Courier, monospace;
+    
+    color: rgb(93, 65, 65);
+    background-color: rgb(47, 44, 44);
+  }
+
+  a {
+    color: rgb(128, 84, 101);
+  }
+  
+  @keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .redirecting,
+  .if-no-redirect {
+    animation-name: appear;
+    animation-duration: 5000ms;
+  }
+  .redirecting {
+    animation-delay: 200ms;
+  }
+  .if-no-redirect {
+    animation-name: appear;
+    animation-delay: 400ms;
+  }
+</style>
+
+<body>
+  <h2 class="redirecting">
+    Redirecting...
+  </h2>
+  <br>
+  <div class="if-no-redirect">
+    If you are not redirected automatically,
+    <a href="./public/index.html">click here</a>.
+  </div>
+</body>
+
+</html>
