@@ -6,7 +6,8 @@ import { Authorize } from './Authorize'
 import Art from './Art'
 import { ShapeShifter } from './ShapeShifter'
 import { normalize, reapply } from './utils'
-
+import { HeaderThird } from './HeaderThird';
+import { MAX_SCALE } from './HeaderThird'
 
 const STAIR_SCALE = 1 / 60 * Math.PI
 const STAIR_OFFSET = 1/6
@@ -48,9 +49,9 @@ const App = () => {
     : (
       <div className="App" ref={appRef}>
         <header className="header">
-          <div className="third-header">I</div>
-          <div className="third-header">LOVE</div>
-          <div className="third-header">YOU</div>
+          <HeaderThird text={"I"} position={1/6} selection={selection} />
+          <HeaderThird text={"LOVE"} position={3/6} selection={selection} />
+          <HeaderThird text={"YOU"} position={5/6} selection={selection} />
         </header>
         <Art selection={selection} />
         <ShapeShifter selection={selection} />

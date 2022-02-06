@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="600"
+   height="600"
+   viewBox="0 0 158.75 158.75"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="shapeI.svg">
+   sodipodi:docname="shapeYou-stem-hidden-abs.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="242.23872"
-     inkscape:cy="883.8903"
+     inkscape:zoom="15.839192"
+     inkscape:cx="312.17041"
+     inkscape:cy="304.54416"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -35,7 +35,8 @@
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -51,12 +52,13 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-138.24998)">
     <path
-       style="fill:#b3b3b3;stroke:none;stroke-width:0.85762727px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 85.993792,40.529008 c 0.551319,19.692362 -1.806298,43.830358 -1.403267,58.63926 0.40303,14.808902 -2.773799,11.714392 -8.578122,12.502252 -5.804323,0.78786 -8.840364,-1.39811 -9.111951,-11.896328 -0.271588,-10.498214 0.767688,-44.118785 -0.02563,-57.086277 -0.79332,-12.967492 -0.379727,-22.794755 8.419338,-22.975064 8.799064,-0.180309 10.148317,1.123795 10.699635,20.816157 z"
+       style="fill:#b3b3b3;stroke:none;stroke-width:1.25039315px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 82.394043,212.38612 C 82.531602,212.38508 82.7533,212.3504 82.781501,212.52814 C 82.809701,212.70587 82.444504,212.97408 82.25698,212.94032 C 82.069457,212.90655 81.961022,212.67425 82.008737,212.53401 C 82.056453,212.39376 82.256484,212.38716 82.394043,212.38612 Z"
        id="path4518"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="zzzzzzz" />
+       sodipodi:nodetypes="zzzzz" />
   </g>
 </svg>

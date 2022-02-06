@@ -1,9 +1,13 @@
 import Sketch from 'react-p5'
 import './Art.css'
 
-const FIRST_BG_COLOR = "#1C0F0D"
-const SECOND_BG_COLOR = "#CA2E55"
-const THIRD_BG_COLOR = "#FFE0B5"
+export const FIRST_BG_COLOR = "#2F1847"
+export const SECOND_BG_COLOR = "#DF1660"
+export const THIRD_BG_COLOR = "#F7C96E"
+export const FIRST_FG_COLOR = "#FFFFFF"
+export const SECOND_FG_COLOR = "#FFFFFF"
+export const THIRD_FG_COLOR = "#FFFFFF"
+
 
 const FRAME_RATE = 30
 
@@ -32,10 +36,6 @@ function App({selection}) {
       (selection.value - 1/6) * 3/2,
     )
     p5.background(bgColor)
-
-    // dev marker TODO remove
-    p5.fill("#333399")
-    p5.circle(selection.value * p5.windowWidth, p5.windowHeight - 70, 20, 20)
   }
 
   const windowResized = (p5) => {
