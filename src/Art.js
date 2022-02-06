@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import Sketch from 'react-p5'
 import './Art.css'
 
@@ -12,17 +13,20 @@ export const THIRD_FG_COLOR = "#FFFFFF"
 const FRAME_RATE = 30
 
 
+
+const triplepolate = (p5, color1, color2, color3, x) => (
+  x < 0.5
+    ? p5.lerpColor(p5.color(color1), p5.color(color2), x * 2)
+    : p5.lerpColor(p5.color(color2), p5.color(color3), x * 2 - 1)
+)
+
+
+// the p5js sketch component
 function App({selection}) {
   const setup = (p5, canvasParentRef) => {
     p5.createCanvas(p5.windowWidth, p5.windowHeight).parent(canvasParentRef)
     p5.frameRate(FRAME_RATE)
   }
-  
-  const triplepolate = (p5, color1, color2, color3, x) => (
-    x < 0.5
-      ? p5.lerpColor(p5.color(color1), p5.color(color2), x * 2)
-      : p5.lerpColor(p5.color(color2), p5.color(color3), x * 2 - 1)
-  )
   
   const draw = (p5) => {
     selection.update()

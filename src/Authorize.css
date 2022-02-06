@@ -1,8 +1,30 @@
 
 .Authorize {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: inherit;
+    background-color: rgb(47, 42, 42);
+
+    z-index: 50;
+}
+
+.Authorize > .submit {
+    position: absolute;
+    left: 50px;
+    width: 5em;
+    height: 5em;
+
+    background-color: white;
+    font-family: inherit;
+    color: rgb(47, 42, 42);
+    border: none;
+    border-radius: 3em;
+    outline: none;
+    cursor: pointer;
+
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.35);
 }
